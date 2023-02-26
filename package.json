@@ -9,6 +9,7 @@
     "nodemon": "^2.0.20"
   },
   "scripts": {
+    "init": "npm install && npm run dev",
     "dev": "nodemon index.js"
   }
 }
